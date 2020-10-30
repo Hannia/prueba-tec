@@ -1,3 +1,41 @@
 body {
-    color: white;
+    background-color: #004C99;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 14px;
+}
+
+.head {
+    background-color: #333333;
+}
+
+.chat .head img {
+ width: 30px;
+}
+
+.head .user {
+    color: #FFFFFF;
+}
+
+.general {
+    background-color: #000000;
+    opacity: 60%;
+}
+
+.general .body-chat {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.general .body-chat .one-speak {
+    background-color: #D9EDF8;
+}
+
+.general .body-chat .two-speak {
+    background-color: #E0F0D6;
+}
+
+span {
+    border-radius: 25px;
 }
